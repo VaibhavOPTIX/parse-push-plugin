@@ -27,6 +27,13 @@ import android.content.pm.ResolveInfo;
 import java.util.List;
 import java.util.Random;
 
+/** Mock response in the Notification
+  {
+  "alert" : "test",
+  "icon" : "https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/leisa_christmas_false_color.png?itok=Jxf0IlS4"
+  }
+ */
+
 
 public class ParsePushPluginReceiver extends ParsePushBroadcastReceiver
 {
